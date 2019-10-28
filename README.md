@@ -9,6 +9,7 @@
   * currently the data is not displayed within the template or has the ability to be exported
   * banner template demonstrates future ability
   
-
+### Release Notes for 1.0.0 :
+* Moved project to WoodlandDirect Company on Github
 
 Build templates for content on Learning Center pages and other info item pages.
