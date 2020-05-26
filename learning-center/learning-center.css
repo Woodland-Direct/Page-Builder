@@ -96,7 +96,7 @@ body {
 }
 
 div {
-  font-family: 'Open Sans', 'Trebuchet MS', sans-serif;
+  /*font-family: 'Open Sans', 'Trebuchet MS', sans-serif;*/
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
 }
