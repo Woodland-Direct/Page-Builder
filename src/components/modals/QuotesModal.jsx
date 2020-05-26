@@ -75,7 +75,7 @@ const QuotesModal = props => {
         type={'input'}
         label={'Header'}
         name={'header'}
-        error={data['header'] ? data['header'].value : null}
+        error={data['header'] ? data['header'].error : null}
         updateFormData={updateFormData}
         value={data['header'] ? data['header'].value : ''}
         required
@@ -84,7 +84,7 @@ const QuotesModal = props => {
         type={'input'}
         label={'Body Text'}
         name={'bodyText'}
-        error={data['bodyText'] ? data['bodyText'].value : null}
+        error={data['bodyText'] ? data['bodyText'].error : null}
         updateFormData={updateFormData}
         value={data['bodyText'] ? data['bodyText'].value : ''}
         required
